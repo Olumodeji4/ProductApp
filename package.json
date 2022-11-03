@@ -1,0 +1,14 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "scss compiler",
+  "main": "Assets/css/app.scss",
+  "scripts": {
+    "test": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "author": "Olumodeji Ayo",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
